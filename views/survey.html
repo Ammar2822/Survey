@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Survey</title>
+</head>
+<body>
+  <h1>Survey Questions</h1>
+
+  <form action="/submit-survey" method="post">
+    
+    <fieldset>
+      <legend>1. If your GPA had a rap battle with procrastination, who do you think would drop the better beats?</legend>
+      <label>
+        <input type="radio" name="question1" value="A" required>
+        A) GPA (It's got all the right notes, just not the highest ones)
+      </label>
+      <label>
+        <input type="radio" name="question1" value="B" required>
+        B) Procrastination (Probably remixing "Later, Maybe" by DJ Tomorrow)
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. In the world of engineering mishaps, what would be your superhero origin story?</legend>
+      <label>
+        <input type="radio" name="question2" value="A" required>
+        A) Bitten by a radioactive calculator and gained the power to solve math problems at lightning speed
+      </label>
+      <label>
+        <input type="radio" name="question2" value="B" required>
+        B) Fell into a pool of caffeinated coffee and developed the ability to stay awake during the longest lectures
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. If your laptop could talk, what would it say to you during finals week?</legend>
+      <label>
+        <input type="radio" name="question3" value="A" required>
+        A) "You again? Seriously, give me a break!"
+      </label>
+      <label>
+        <input type="radio" name="question3" value="B" required>
+        B) "I've calculated the probability of you passing... it's not looking good."
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. If your study notes had a catchphrase, what would it be?</legend>
+      <label>
+        <input type="radio" name="question4" value="A" required>
+        A) "I'm not short; I'm just vertically challenged... like your chances of acing this exam."
+      </label>
+      <label>
+        <input type="radio" name="question4" value="B" required>
+        B) "Studying: Because Netflix and Chill won't pay the bills."
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. If you were a meme about engineering life, what would the caption be?</legend>
+      <label>
+        <input type="radio" name="question5" value="A" required>
+        A) "When you finally understand the concept on the night before the test."
+      </label>
+      <label>
+        <input type="radio" name="question5" value="B" required>
+        B) "That feeling when you solve a dynamics and don't remember how"
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>6. On a scale of "Teaching a cat to salsa dance" to "Explaining color to a blind chameleon," how hard do you find chemistry?</legend>
+      <label>
+        <input type="radio" name="question6" value="A" required>
+        A) Teaching a cat to salsa dance (Piece of cake, right?)
+      </label>
+      <label>
+        <input type="radio" name="question6" value="B" required>
+        B) Convincing a goldfish it has a good memory (Moderately challenging)
+      </label>
+      <label>
+        <input type="radio" name="question6" value="C" required>
+        C) Explaining color to a blind chameleon (Organic chemistry is basically chameleon sign language)
+      </label>
+      <label>
+        <input type="radio" name="question6" value="D" required>
+        D) Trying to find your way out of IKEA without the map (Easier than understanding chemical equations!)
+      </label>
+    </fieldset>
+
+    <button type="submit">Submit Survey</button>
+  </form>
+</body>
+</html>
